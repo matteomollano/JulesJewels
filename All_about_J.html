@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jules</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>
+      $.get("navbar.html", function(data){
+        $(".nav-placeholder").replaceWith(data);
+      });
+    </script>
+  </head>
+
+  <body>
+      <div class="nav-placeholder"></div>
+      <p>All_about_juliet</p>
+  </body>
+</html>

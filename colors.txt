@@ -1,0 +1,8 @@
+ color options
+#B3FFD2
+#FF603B
+#f2f2f2
+#C1C1C1
+#C5CBD3
+#61676C
+#A7B2BC
