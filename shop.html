@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Check These Out</title>
+  <link rel="stylesheet" href="styles/shop.css">
+  <script src="//code.jquery.com/jquery.min.js"></script>
+  <script>
+    $.get("navbar.html", function (data) {
+      $(".nav-placeholder").replaceWith(data);
+    });
+  </script>
+</head>
+
+<body>
+  <div class="nav-placeholder"></div>
+  <div class="grid">
+    <div class="website-link">
+      <div>
+        <p class="product-name">Sol De Janeiro</p>
+      </div>
+      <div>
+        <img class="product-image" id="sephora-image" src="images/SolDeJaneiro.jpeg">
+
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://www.sephora.com">Sephora</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+
+    </div>
+
+
+
+    <!--lululemon-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">define jacket</p>
+      </div>
+      <div>
+        <img class="product-image" id="lulu-image" src="images/lulu.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://shop.lululemon.com/story/women">lululemon</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+
+    <!--whitefox-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Offstage Hoodie</p>
+      </div>
+      <div>
+        <img class="product-image" src="images/whitefox-hoodie.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://whitefoxboutique.com/collections/loungewear/products/offstage-hoodie-glacier-grey?variant=40880654843964">White Fox</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    <!--Urban outfitters-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Seamless Top</p>
+      </div>
+      <div>
+        <img class="product-image" id="UO-image" src="images/Urban-outfitters-top.webp">
+      </div>
+      <div>
+        <a id="uo-button" class="website-button" target="_blank" href="https://www.urbanoutfitters.com/shop/out-from-under-go-for-gold-seamless-top?category=womens-tops&color=011&type=REGULAR&viewcode=b&quantity=1">Urban Outfitters</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    <!--AV Nation-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Kids AV Sweatpants</p>
+      </div>
+      <div>
+        <img class="product-image" id="AV-image" src="images/av-sweats.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://www.aviatornation.com/collections/kids-sweatpants/products/aviator-nation-sweats-heather-grey">AV Nation</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    <!--Zara-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Basic Plush Sweats</p>
+      </div>
+      <div>
+        <img class="product-image" id="AV-image" src="images/zara-sweatpants.jpg">
+      </div>
+      <div>
+        
+        <a class="website-button" target="_blank" href="https://www.zara.com/us/en/basic-plush-jogger-pants-p08417804.html?v1=322972508">Zara</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    <!--Bubble-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Slam Dunk Moisterizer</p>
+      </div>
+      <div>
+        <img class="product-image" id="lulu-image" src="images/bubble-moisterizer.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://hellobubble.com/collections/shop/products/slam-dunk-hydrating-moisturizer">Bubble</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+     <!--Aerie-->
+      <div class="website-link">
+        <div>
+          <p class="product-name">Crossover Flowey Short</p>
+        </div>
+        <div>
+          <img class="product-image" id="lulu-image" src="images/aerie-shorts.webp">
+        </div>
+        <div>
+          <a class="website-button" target="_blank" href="https://www.ae.com/us/en/p/aerie/shorts/active-shorts/offline-by-aerie-real-me-crossover-flowy-short/1706_1217_492?menu=cat1090003">Aerie</a>
+          <button class="favorites-button">
+            <img class="clear-heart" src="images/heart-clear.png" />
+          </button>
+        </div>
+      </div>
+    <!--Mango-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Ribbed top</p>
+      </div>
+      <div>
+        <img class="product-image" id="lulu-image" src="images/mango-top.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://shop.mango.com/us/women/tops-basics/ribbed-cotton-blend-top_57050230.html?c=52">Mango</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    <!--Athleta-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Salutation Stash 7/8 Tight</p>
+      </div>
+      <div>
+        <img class="product-image" id="lulu-image" src="images/athleta-leggings.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://athleta.gap.com/browse/product.do?pid=531321422&cid=1059481&pcid=1059481&vid=1&nav=meganav%3ABottoms%3ACATEGORIES%3ATights%20%26%20Leggings&cpos=10&cexp=3064&kcid=CategoryIDs%3D1059481&cvar=27654&ctype=Listing&cpid=res24032308833441432022229#pdp-page-content">Athleta</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    <!--Love Shack Fancy-->
+    <div class="website-link">
+      <div>
+        <p class="product-name">Denna Halter Dress</p>
+      </div>
+      <div>
+        <img class="product-image" id="lulu-image" src="images/LoveShackFancy-dress.webp">
+      </div>
+      <div>
+        <a class="website-button" target="_blank" href="https://www.loveshackfancy.com/products/deanna-halter-dress-d1143-1725?variant=43530602643641&frt=12&srsltid=AfmBOor8Hv4WRYzSF_SkXZMcQX8L96EeqS0cjmX2fVxYTQ7CLEcXo83U2PE">LoveShackFancy</a>
+        <button class="favorites-button">
+          <img class="clear-heart" src="images/heart-clear.png" />
+        </button>
+      </div>
+    </div>
+    
+  </div>
+  <script src="scripts/shop.js"></script>
+</body>
+
+</html>
