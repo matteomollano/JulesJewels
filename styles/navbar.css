@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/socake');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 h1 {
   text-align: center;
@@ -39,6 +40,16 @@ h1 {
   #brand{
     font-size: 50px;
   }
+  #home-page,
+  #shop,
+  #favorites,
+  #locations,
+  #all-about-juliet,
+  #customer-service,
+  #donations, 
+  #music{
+    font-size: 22px;
+  }
 }
 
 #greys-anatamy{
@@ -66,43 +77,11 @@ h1 {
   font-size: 16px;
   margin-top: 7px;
   margin-bottom: 7px;
-  margin-right: 7px;
-  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
   color: #fff;
   background-color: #000;
-}
-
-
-#home-page {
-  width: 72px;
-}
-
-#shop {
-  width: 65px;
-}
-
-#favorites {
-  width: 95px;
-}
-
-#locations {
-  width: 95px;
-}
-
-#all-about-juliet {
-  width: 134px;
-}
-
-#customer-service {
-  width: 158px;
-}
-
-#donations {
-  width: 102px;
-}
-
-#music {
-  width: 68px;
+  font-family: "Manrope";
 }
 
 #bottom-navbar {
