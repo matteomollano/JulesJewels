@@ -22,6 +22,21 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+@media only screen and (max-width:701px) {
+  .grid, .favorites-grid{
+    grid-template-columns: 1fr;
+  }
+} 
+
+@media only screen and (min-width:702px) and (max-width:991px) {
+  .grid, .favorites-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+
 .website-button {
   text-decoration: none;
   background-color: #ADFEC6;
