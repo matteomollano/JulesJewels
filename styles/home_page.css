@@ -1,24 +1,23 @@
- @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 .title{
   letter-spacing: 3px;
   font-family: Amatic Sc;
-  font-size:37px ;
+  font-size: 37px ;
   margin-left: 20px;
- }
+}
 
 .page{
   margin-top: 10px;
 }
 
-.brands{
+/* .brands{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+} */
 
-.image{
+/* .image{
  height: auto; 
  width: 60%;
-}
+} */

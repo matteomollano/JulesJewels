@@ -16,10 +16,6 @@ h1 {
   color: white;
 }
 
-#top-navbar{
-  background-color: gainsboro;
-}
-
 @media (max-width: 991px) {
   h1 {
     display: none;
